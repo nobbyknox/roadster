@@ -71,51 +71,6 @@ var graph = [
         color: 'green',
         dependants: [
             {
-                id: 6,
-                label: 'Nautilus 0.1',
-                value: 2,
-                type: 'box',
-                color: 'green',
-                font: { color: 'white' },
-                dependants: [
-                    {
-                        id: 9,
-                        label: 'Time Mode',
-                        value: 1,
-                        color: 'green',
-                        font: { color: 'white' }
-                    },
-                    {
-                        id: 10,
-                        label: 'VBX Instance',
-                        value: 1,
-                        color: 'green',
-                        font: { color: 'white' }
-                    },
-                    {
-                        id: 11,
-                        label: 'Users',
-                        value: 1,
-                        color: 'green',
-                        font: { color: 'white' }
-                    },
-                    {
-                        id: 12,
-                        label: 'Roles',
-                        value: 1,
-                        color: 'green',
-                        font: { color: 'white' }
-                    },
-                    {
-                        id: 13,
-                        label: 'Class of Service',
-                        value: 1,
-                        color: 'green',
-                        font: { color: 'white' }
-                    }
-                ]
-            },
-            {
                 id: 7,
                 label: 'Nautilus 0.2',
                 value: 2,
@@ -123,6 +78,51 @@ var graph = [
                 color: 'green',
                 font: { color: 'white' },
                 dependants: [
+                    {
+                        id: 6,
+                        label: 'Nautilus 0.1',
+                        value: 2,
+                        type: 'box',
+                        color: 'green',
+                        font: { color: 'white' },
+                        dependants: [
+                            {
+                                id: 9,
+                                label: 'Time Mode',
+                                value: 1,
+                                color: 'green',
+                                font: { color: 'white' }
+                            },
+                            {
+                                id: 10,
+                                label: 'VBX Instance',
+                                value: 1,
+                                color: 'green',
+                                font: { color: 'white' }
+                            },
+                            {
+                                id: 11,
+                                label: 'Users',
+                                value: 1,
+                                color: 'green',
+                                font: { color: 'white' }
+                            },
+                            {
+                                id: 12,
+                                label: 'Roles',
+                                value: 1,
+                                color: 'green',
+                                font: { color: 'white' }
+                            },
+                            {
+                                id: 13,
+                                label: 'Class of Service',
+                                value: 1,
+                                color: 'green',
+                                font: { color: 'white' }
+                            }
+                        ]
+                    },
                     {
                         id: 14,
                         label: 'Extensions',
