@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#myroadmap {
+    width: 100%;
+    height: 100vh;
+    /*border: 1px solid lightgray;*/
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 299;
+    background-color: inherit;
+
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    z-index: 299;
+    background-color: inherit;
+
+    margin: 0;
+    padding: 0;
+}
+
+#operation {
+    font-size: 28px;
+}
+
+#network-pop-up {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    z-index: 299;
+    width: 250px;
+    height: 120px;
+    background-color: #e0e0e0;
+    border: 2px solid #a3a3a3;
+    padding: 10px;
+    text-align: center;
+}

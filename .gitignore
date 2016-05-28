@@ -1,0 +1,7 @@
+.idea/
+bower_components/
+node_modules/
+*.sh
+.DS_Store
+private.json
+test-reports.xml
